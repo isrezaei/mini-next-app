@@ -1,4 +1,8 @@
 .parent {
+    width: 80%;
+    margin: 2vw auto;
     display: grid;
-    grid-template-columns: repeat(4 5);
+    grid-template-columns: repeat(4 , 20rem);
+    grid-gap: 2vw;
+    justify-content: center;
 }
